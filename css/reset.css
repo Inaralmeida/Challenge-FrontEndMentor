@@ -11,10 +11,14 @@
   --desaturatedBlue: #585989;
   --brightBlue: hsl(224, 93%, 58%);
   --moderateCyan: hsl(170, 45%, 43%);
-  --lightGrayishBlue: hsl(240, 75%, 98%);
+  --lightGrayishBlue: #f8f8fe;
   --lightGray: hsl(0, 0%, 75%);
 }
 
 body {
   background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
