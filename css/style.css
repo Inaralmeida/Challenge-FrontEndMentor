@@ -18,8 +18,14 @@ nav {
 a {
   text-decoration: none;
   color: var(--darkBlue);
-  font-weight: 400;
+  font-weight: 500;
   font-family: 'Raleway', sans-serif;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--brightBlue);
 }
 
 /* MAIN ------------------------------------------------------- */
@@ -38,105 +44,40 @@ main {
   align-items: center;
   justify-content: space-between;
 }
+
 /* primeira section ------------------------------------------------------- */
 
 .primeira-section {
-  width: 100%;
-  height: 80vh;
-  display: flex;
   align-items: flex-start;
-  justify-content: center;
   background-image: url(../images/bg-curve-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
-}
-
-.left,
-.right {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-.left {
-  align-items: flex-start;
-}
-
-h2 {
-  font-size: 48px;
-  font-weight: 700;
-  font-family: 'Raleway', sans-serif;
-  color: var(--veryDarkBlue);
-}
-p {
-  font-size: 22px;
-  font-weight: 500;
-  color: var(--veryDarkBlue);
-}
-
-fieldset {
-  width: 80%;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: none;
-}
-
-fieldset input {
-  width: 60%;
-  height: 40px;
-  outline: none;
-  padding-left: 10px;
-  border-radius: 4px;
-  border: 1px solid var(--veryDarkBlue);
-}
-
-fieldset button {
-  background-color: var(--brightBlue);
-  padding: 10px 50px;
-  border-radius: 4px;
-  border: none;
-  color: #fff;
-  font-weight: 700;
-  box-shadow: 2px 2px 8px var(--lightGray);
-  letter-spacing: 1.5px;
-}
-
-.right > img {
-  width: 100%;
+  height: 80vh;
 }
 
 /* segunda section ------------------------------------------------------- */
 
 .segunda-section {
-  width: 100%;
-  height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: var(--lightGrayishBlue);
-}
-
-.left-2 {
-  width: 50%;
+  gap: 90px;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
 
 .link-call-action {
   width: fit-content;
-  font-size: 22px;
-  line-height: 120%;
+  font-size: 20px;
+  line-height: 200%;
   border-bottom: 1px solid var(--moderateCyan);
   color: var(--moderateCyan);
   display: flex;
   align-items: center;
   gap: 5px;
+  margin-bottom: 50px;
+}
+.link-call-action:hover {
+  color: #67dfcb;
+  border-bottom-color: #67dfcb;
 }
 
 .link-call-action > img {
@@ -145,19 +86,25 @@ fieldset button {
 }
 
 blockquote {
-  width: 80%;
-  padding: 30px 25px;
+  width: 60%;
+  min-width: 400px;
+  padding: 25px 35px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   background-color: #fff;
   gap: 20px;
+  box-shadow: 4px 4px 8px #f2f2f2, -4px -4px 8px #f2f2f2;
 }
 
 blockquote > img {
-  width: 20px;
+  width: 15px;
+  height: 15px;
 }
 
+blockquote p {
+  font-size: 16px;
+}
 .profile {
   width: 100%;
   display: flex;
@@ -166,30 +113,26 @@ blockquote > img {
 }
 
 .profile > img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 
 .profile article h3 {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 1.8px;
   font-family: 'Raleway', sans-serif;
 }
 
 .profile article p {
-  font-size: 14px;
+  font-size: 10px;
 }
 
 /* ENROLLMENT -------------------------------------------------------------*/
 
 .enrollment {
-  width: 100%;
   background-color: var(--desaturatedBlue);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 80px 0;
 }
 
@@ -201,15 +144,13 @@ blockquote > img {
 
 .enrollment fieldset input {
   width: 100%;
-  height: 50px;
+
   outline: none;
   border: none;
-  box-shadow: 2px 2px 8px 1px #1010105a;
 }
 
 .enrollment fieldset button {
   height: 50px;
-  box-shadow: 2px 2px 8px 1px #1010105a;
 }
 
 .enrollment p,
@@ -260,19 +201,20 @@ footer .content {
 .li-column a {
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .li-column a img {
   width: 18px;
-  height: 18px;
 }
 
-.socials{
+.socials {
   display: flex;
   flex-direction: row;
 }
-
-.icon-social{
+.icon-social {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -280,4 +222,8 @@ footer .content {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.icon-social:hover {
+  background-color: var(--brightBlue);
 }
