@@ -3,7 +3,7 @@
 ![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
 
 ## Olá! 👋
-This is a solution to the Fylo landing page with two column layout challenge on Frontend Mentor. 
+Esta é uma solução para a página inicial do Fylo com desafio de layout de duas colunas no Frontend Mentor.
 
 ### Construído com
 
