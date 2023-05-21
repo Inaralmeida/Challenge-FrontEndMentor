@@ -3,7 +3,7 @@
 header {
   width: 100%;
   max-width: 1440px;
-  padding: 20px 0;
+  padding: 20px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,7 +53,7 @@ main {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
-  height: 80vh;
+  padding-bottom: 150px;
 }
 
 /* segunda section ------------------------------------------------------- */
@@ -62,6 +62,7 @@ main {
   background-color: var(--lightGrayishBlue);
   gap: 90px;
   display: flex;
+  padding-bottom: 100px;
 }
 
 .link-call-action {
@@ -86,8 +87,8 @@ main {
 }
 
 blockquote {
-  width: 60%;
-  min-width: 400px;
+  width: 80%;
+  min-width: 300px;
   padding: 25px 35px;
   border-radius: 8px;
   display: flex;
@@ -133,7 +134,7 @@ blockquote p {
 
 .enrollment {
   background-color: var(--desaturatedBlue);
-  padding: 80px 0;
+  padding: 80px 50px;
 }
 
 .enrollment fieldset {
@@ -174,6 +175,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px 50px;
 }
 
 footer .content {

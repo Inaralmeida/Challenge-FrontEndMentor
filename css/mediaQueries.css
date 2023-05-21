@@ -1,0 +1,157 @@
+@media screen and (max-width: 1024px) {
+  section,
+  header {
+    padding: 20px 50px;
+    height: auto;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+  .left {
+    width: 70%;
+  }
+  fieldset {
+    width: 100%;
+  }
+  button {
+    width: 30%;
+    padding: 0;
+  }
+  .enrollment p,
+  .enrollment h3 {
+    font-size: 18px;
+    line-height: 160%;
+  }
+  .enrollment h3 {
+    font-size: 24px;
+  }
+
+  .enrollment button {
+    width: 100%;
+  }
+
+  .li-column a {
+    font-size: 14px;
+  }
+
+  .socials {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  section,
+  header {
+    padding: 20px;
+    height: auto;
+  }
+  h1 img {
+    width: 70px;
+  }
+
+  nav {
+    gap: 10px;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  fieldset {
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+  }
+  input,
+  button {
+    width: 100%;
+  }
+
+  .content {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+  }
+
+  .right,
+  .left {
+    width: 100%;
+    align-items: center;
+    order: 2;
+  }
+
+  .right {
+    order: 1;
+  }
+
+  .right img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .primeira-section {
+    background-image: url(../images/bg-curve-mobile.svg);
+  }
+
+  blockquote {
+    padding: 15px;
+  }
+  .enrollment {
+    padding: 50px;
+  }
+
+  .enrollment .rigth {
+    order: 2;
+  }
+  .enrollment .left {
+    order: 1;
+  }
+  .enrollment p,
+  .enrollment h3 {
+    font-size: 16px;
+    line-height: 160%;
+  }
+  .enrollment h3 {
+    font-size: 18px;
+  }
+
+  .enrollment fieldset {
+    gap: 15px;
+  }
+  footer {
+    padding: 0px 30px;
+  }
+  .content ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 70px;
+  }
+
+  .li-column {
+    width: 100%;
+  }
+
+  .li-column a {
+    margin: 5px 0;
+  }
+
+  .socials {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
